@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BBF1FB637C2E9C7CF0E32B3 /* libPods-ios-ga-demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCE920032B7DBD46DF62900 /* libPods-ios-ga-demo.a */; };
 		BCDC46811E2DE03600730A61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC46801E2DE03600730A61 /* AppDelegate.swift */; };
 		BCDC46831E2DE03600730A61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC46821E2DE03600730A61 /* ViewController.swift */; };
 		BCDC46861E2DE03600730A61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCDC46841E2DE03600730A61 /* Main.storyboard */; };
 		BCDC46881E2DE03600730A61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCDC46871E2DE03600730A61 /* Assets.xcassets */; };
 		BCDC468B1E2DE03600730A61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCDC46891E2DE03600730A61 /* LaunchScreen.storyboard */; };
 		BCDC46961E2DE03600730A61 /* ios_ga_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC46951E2DE03600730A61 /* ios_ga_demoTests.swift */; };
+		BCDC46A11E2DE05700730A61 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCDC46A01E2DE05700730A61 /* GoogleService-Info.plist */; };
+		BCDC46A31E2DE15C00730A61 /* AnaliticsUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC46A21E2DE15C00730A61 /* AnaliticsUsecase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6FF6FF2B5452049F36D6D4F9 /* Pods-ios-ga-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-ga-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-ga-demo/Pods-ios-ga-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		8B23E72C79F51B73B9706CBA /* Pods-ios-ga-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-ga-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-ga-demo/Pods-ios-ga-demo.release.xcconfig"; sourceTree = "<group>"; };
 		BCDC467D1E2DE03600730A61 /* ios-ga-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-ga-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCDC46801E2DE03600730A61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCDC46821E2DE03600730A61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +41,10 @@
 		BCDC46911E2DE03600730A61 /* ios-ga-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-ga-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCDC46951E2DE03600730A61 /* ios_ga_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_ga_demoTests.swift; sourceTree = "<group>"; };
 		BCDC46971E2DE03600730A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCDC46A01E2DE05700730A61 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BCDC46A21E2DE15C00730A61 /* AnaliticsUsecase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnaliticsUsecase.swift; sourceTree = "<group>"; };
+		BCDC46A41E2DE43E00730A61 /* ios-ga-demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-ga-demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		CBCE920032B7DBD46DF62900 /* libPods-ios-ga-demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios-ga-demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BBF1FB637C2E9C7CF0E32B3 /* libPods-ios-ga-demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				BCDC467F1E2DE03600730A61 /* ios-ga-demo */,
 				BCDC46941E2DE03600730A61 /* ios-ga-demoTests */,
 				BCDC467E1E2DE03600730A61 /* Products */,
+				FDFDEB684B6AE14ACC7F345C /* Pods */,
+				DB0B0230EAB9EFDE31E85D50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,7 +94,10 @@
 				BCDC46841E2DE03600730A61 /* Main.storyboard */,
 				BCDC46871E2DE03600730A61 /* Assets.xcassets */,
 				BCDC46891E2DE03600730A61 /* LaunchScreen.storyboard */,
+				BCDC46A01E2DE05700730A61 /* GoogleService-Info.plist */,
 				BCDC468C1E2DE03600730A61 /* Info.plist */,
+				BCDC46A21E2DE15C00730A61 /* AnaliticsUsecase.swift */,
+				BCDC46A41E2DE43E00730A61 /* ios-ga-demo-Bridging-Header.h */,
 			);
 			path = "ios-ga-demo";
 			sourceTree = "<group>";
@@ -96,6 +111,23 @@
 			path = "ios-ga-demoTests";
 			sourceTree = "<group>";
 		};
+		DB0B0230EAB9EFDE31E85D50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBCE920032B7DBD46DF62900 /* libPods-ios-ga-demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDFDEB684B6AE14ACC7F345C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FF6FF2B5452049F36D6D4F9 /* Pods-ios-ga-demo.debug.xcconfig */,
+				8B23E72C79F51B73B9706CBA /* Pods-ios-ga-demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCDC469A1E2DE03600730A61 /* Build configuration list for PBXNativeTarget "ios-ga-demo" */;
 			buildPhases = (
+				FAD57B6A2A4A73249940DCE1 /* Check Pods Manifest.lock */,
 				BCDC46791E2DE03600730A61 /* Sources */,
 				BCDC467A1E2DE03600730A61 /* Frameworks */,
 				BCDC467B1E2DE03600730A61 /* Resources */,
+				AC704088A718C9E0C89611E8 /* Embed Pods Frameworks */,
+				C01409A4BA34397696A18528 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCDC468B1E2DE03600730A61 /* LaunchScreen.storyboard in Resources */,
+				BCDC46A11E2DE05700730A61 /* GoogleService-Info.plist in Resources */,
 				BCDC46881E2DE03600730A61 /* Assets.xcassets in Resources */,
 				BCDC46861E2DE03600730A61 /* Main.storyboard in Resources */,
 			);
@@ -192,11 +228,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AC704088A718C9E0C89611E8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-ga-demo/Pods-ios-ga-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C01409A4BA34397696A18528 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-ga-demo/Pods-ios-ga-demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAD57B6A2A4A73249940DCE1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BCDC46791E2DE03600730A61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCDC46A31E2DE15C00730A61 /* AnaliticsUsecase.swift in Sources */,
 				BCDC46831E2DE03600730A61 /* ViewController.swift in Sources */,
 				BCDC46811E2DE03600730A61 /* AppDelegate.swift in Sources */,
 			);
@@ -325,23 +410,34 @@
 		};
 		BCDC469B1E2DE03600730A61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF6FF2B5452049F36D6D4F9 /* Pods-ios-ga-demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "ios-ga-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-ga-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ios-ga-demo/ios-ga-demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		BCDC469C1E2DE03600730A61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B23E72C79F51B73B9706CBA /* Pods-ios-ga-demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "ios-ga-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-ga-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ios-ga-demo/ios-ga-demo-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -388,6 +484,7 @@
 				BCDC469C1E2DE03600730A61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCDC469D1E2DE03600730A61 /* Build configuration list for PBXNativeTarget "ios-ga-demoTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +493,7 @@
 				BCDC469F1E2DE03600730A61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
